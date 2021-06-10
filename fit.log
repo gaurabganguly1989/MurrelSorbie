@@ -1,0 +1,40 @@
+
+
+*******************************************************************************
+Thu Jun 10 21:02:16 2021
+
+
+FIT:    data read from "ScaledPES.dat" using 1:2
+        format = x:z
+        #datapoints = 948
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=-De*(1+a1*x+a2*x**2+a3*x**3)*exp(-a1*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   De            a1            a2            a3           
+   0 9.5806491799e-02   0.00e+00  2.84e-01    1.200000e-01   2.000000e+00   1.000000e+00   2.500000e-01
+   5 2.4016667260e-04  -5.62e-02  2.84e-06    1.232223e-01   2.021794e+00   1.102611e+00   2.732160e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000240167
+rel. change during last iteration : -5.61797e-07
+
+degrees of freedom    (FIT_NDF)                        : 944
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000504395
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.54414e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+De              = 0.123222         +/- 5.825e-05    (0.04727%)
+a1              = 2.02179          +/- 0.002546     (0.1259%)
+a2              = 1.10261          +/- 0.004621     (0.4191%)
+a3              = 0.273216         +/- 0.00158      (0.5784%)
+
+correlation matrix of the fit parameters:
+                De     a1     a2     a3     
+De              1.000 
+a1              0.358  1.000 
+a2              0.320  0.989  1.000 
+a3              0.197  0.923  0.969  1.000 
